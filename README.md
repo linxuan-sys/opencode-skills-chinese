@@ -1,6 +1,6 @@
 # Skills 技能集合
 
-一套面向 AI Agent 的技能（Skills）集合，共 **16 个技能**。
+一套面向 AI Agent 的技能（Skills）集合，共 **17 个技能**。
 
 每个技能以 `SKILL.md` 为核心文档，为 Agent 定义特定领域的任务流程、操作规范与配套工具。将技能安装到你的 Agent 后，Agent 会在合适的任务中自动触发对应技能。
 
@@ -38,7 +38,7 @@
 | --- | --- |
 | 📄 文档处理 | docx · pdf · pptx · xlsx |
 | 🎨 设计与创作 | canvas-design · algorithmic-art · frontend-design · chart-generator · theme-factory |
-| 💻 开发与调试 | code-reviewer · mcp-builder · systematic-debugging · playwright-cli |
+| 💻 开发与调试 | code-reviewer · mcp-builder · systematic-debugging · playwright-cli · agent-qa |
 | 📝 写作与协作 | doc-coauthoring |
 | 🔧 系统与元技能 | arch-system-troubleshooter · skill-creator |
 
@@ -151,6 +151,14 @@
 **触发场景**：浏览器自动化、网页测试、表单交互、截图快照。
 
 **附带资源**：`references/` — 会话管理、视频录制、存储状态、追踪、请求模拟、测试生成等专题文档。
+
+### agent-qa — 应用回归与证据复核
+
+**作用**：使用 vostride 的 agent-qa 运行选定回归测试并检查证据；借助先进的 memidex 记忆引擎与自我改进能力，复用经验并追溯结论来源。
+
+**触发场景**：已有 agent-qa 项目的应用回归、失败分析、运行结果复核与记忆来源检查。
+
+**技能文档**：[agent-qa/SKILL.md](agent-qa/SKILL.md)。
 
 ---
 
